@@ -1,4 +1,5 @@
 # IP address display for RP2350 + Waveshare 1.47" LCD
+> Requires the host sytem to be logged in.
 > Only tested on a RPi running Raspberry pi OS trixie.
 
 ![usb_ip_connected](https://github.com/user-attachments/assets/b9c3098c-4b85-4226-8088-a0389cba1ab0)

@@ -9,6 +9,7 @@ Small Arduino sketch for RP2350 boards that:
 ## Hardware/Setup
 - RP2350 board with the Waveshare 1.47" LCD module wired per the Waveshare examples.
 - Place the Waveshare driver sources (e.g., `DEV_Config.*`, `GUI_Paint.*`, `LCD_1in47.*`, fonts, image data) alongside this `.ino`, or install them as an Arduino library.
+- 3D printed shell shouldn't need support, and uses m2x4mm screws
 
 ## Sketch Notes
 - Four display lines: hostname, Wi‑Fi (`wl*`), Ethernet (`en*/eth*`), and two “other” slots for additional detected interfaces.

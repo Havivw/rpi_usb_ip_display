@@ -1,6 +1,8 @@
 # IP address display for RP2350 + Waveshare 1.47" LCD
 > Only tested on a RPi running Raspberry pi OS trixie.
 
+![usb_ip_connected](https://github.com/user-attachments/assets/b9c3098c-4b85-4226-8088-a0389cba1ab0)
+
 Small Arduino sketch for RP2350 boards that:
 - Opens a terminal on the host via USB HID (Ctrl+Alt+T), runs `hostname` and `ip -o -4 addr show`, and sends the output back over CDC.
 - Parses the hostname and IPv4 addresses, displays them on the 1.47" LCD, and shows a status line (connecting, then seconds since last update).
